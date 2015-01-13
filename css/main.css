@@ -1,0 +1,160 @@
+/*Background Image*/
+html { 
+  background: url(../img/header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+	background-color: transparent;
+}
+
+/*Navigation*/
+#logo-brand {
+	height: 60px;
+}
+
+.main-nav>li>a {
+	border-radius: 1px;
+	color: #000;
+	background-color: rgba(190, 190, 190, 0.4);
+}
+
+.main-nav>li.active>a,
+ .main-nav>li.active>a:hover,
+  .main-nav>li.active>a:focus {
+  	color: #000;
+  	background-color: rgba(190, 190, 190, 0.65);
+}
+
+/* Typography */
+body {
+	font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.4933333079;
+	font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ 	font-weight: 300;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+	margin-top: 60px;
+}
+
+h1.lead {
+	font-size: 90px;
+	margin-bottom: 16px;
+	font-weight: 200;
+	padding-top: 110px
+}
+
+h2.tagline {
+	font-size: 60px;
+	margin-bottom: 25px;
+	font-weight: 300;
+	margin-top: 0px;
+}
+
+blockquote {
+	font-style: italic;
+	font-family: Georgia;
+	color: #999;
+	margin: 30px 0 30px;
+ }
+
+.page-title {
+	margin-top: 20px;
+	font-weight: 300;
+}
+
+.thin {font-weight: 200;}
+
+.bigger {
+	font-size: 1.2em;
+}
+
+/*Main Container*/
+.body-container {
+	margin-right: auto;
+	margin-left: auto;
+
+}
+	
+	
+	@media (min-width: 768px) {
+		.body-container {
+			width: 750px;
+		}
+	}
+	@media (min-width: 992px) {
+		.body-container {
+			width: 970px;
+		}
+	}
+	@media (min-width: 1200px) {
+		.body-container {
+			width: 1170px;
+		}
+	}
+
+.txt-box {
+	background: rgba(255, 255, 255, .95);
+	margin-top: 15px;
+	overflow-y: scroll;
+	height: 700px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+/*Team*/
+
+.person {
+	display: inline-block;
+	padding-bottom: 50px;
+	/*box-shadow: 0 0px 0.1px #888;*/
+	margin-bottom: 30px;
+}
+
+.person_info {
+	position: absolute;
+	text-align: center;
+	width: 89.9%;
+	background: rgba(255, 255, 255, 0.95);
+	padding: 5px 10px 50px 10px;
+	height: 37px;
+	overflow: hidden;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* Footer */
+.footer2 {
+	padding: 5px 0;
+	color: #fff;
+	font-size: 15px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+ }
+
+	.footer2 a {color: #F2F2F2;}
+
+		.footer2 a:hover {color: #0000EE;}
+
+	.footer2 p {margin: 0;}
+
+/*Helpers*/
+.top-space {
+	margin-top: 30px;
+}
