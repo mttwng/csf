@@ -137,12 +137,13 @@ blockquote {
 	padding-bottom: 50px;
 	/*box-shadow: 0 0px 0.1px #888;*/
 	margin-bottom: 30px;
+	width: 80%;
 }
 
 .person_info {
 	position: absolute;
 	text-align: center;
-	width: 89.9%;
+	width: 77%;
 	background: rgba(255, 255, 255, 0.95);
 	padding: 5px 10px 50px 10px;
 	height: 37px;
