@@ -89,15 +89,30 @@ blockquote {
 		.body-container {
 			width: 750px;
 		}
+		.txt-box {
+			height: 350px;
+		}
 	}
 	@media (min-width: 992px) {
 		.body-container {
 			width: 970px;
 		}
+		.txt-box {
+			height: 600px;
+		}
 	}
 	@media (min-width: 1200px) {
 		.body-container {
 			width: 1170px;
+		}
+		.txt-box {
+			height: 650px;
+		}
+	}
+
+	@media (min-width: 1400px) {
+		.txt-box {
+			height: 750px;
 		}
 	}
 
@@ -105,7 +120,7 @@ blockquote {
 	background: rgba(255, 255, 255, .95);
 	margin-top: 15px;
 	overflow-y: scroll;
-	height: 700px;
+	/*height: 700px;*/
 	padding-left: 15px;
 	padding-right: 15px;
 }
