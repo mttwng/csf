@@ -112,7 +112,12 @@ blockquote {
 
 	@media (min-width: 1400px) {
 		.txt-box {
-			height: 750px;
+			height: 680px;
+		}
+	}
+	@media (min-width: 1600px) {
+		.txt-box {
+			height: 800px;
 		}
 	}
 
@@ -138,12 +143,14 @@ blockquote {
 	/*box-shadow: 0 0px 0.1px #888;*/
 	margin-bottom: 30px;
 	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .person_info {
 	position: absolute;
 	text-align: center;
-	width: 77%;
+	width: 72%;
 	background: rgba(255, 255, 255, 0.95);
 	padding: 5px 10px 50px 10px;
 	height: 37px;
@@ -162,6 +169,7 @@ img {
 	width: 100%;
 	position: absolute;
 	bottom: 0;
+	z-index: -10;
  }
 
 	.footer2 a {color: #F2F2F2;}

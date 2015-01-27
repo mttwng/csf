@@ -23,10 +23,10 @@ $(document).ready(function(){
      });  // end section function
     }
 
-    $(".person_info").hover(
+    $(".person").hover(
     //on mouseover
     function() {
-      $(this).animate({
+      $(".person_info", this).animate({
         paddingTop: '+=10',
         height: '+=140', //adds 250px
         marginTop: '-=170'
@@ -35,7 +35,7 @@ $(document).ready(function(){
     },
     //on mouseout
     function() {
-      $(this).animate({
+      $(".person_info", this).animate({
         paddingTop: '-=10',
         height: '-=140px', //substracts 250px
         marginTop: '+=170',
