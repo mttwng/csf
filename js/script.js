@@ -24,11 +24,14 @@ $(document).ready(function(){
     }
 
     $(".person_info").hover(
+    // $(".person").hover(
+
     //on mouseover
     function() {
       $(this).animate({
+      // $(".person_info", this).animate({        
         paddingTop: '+=10',
-        height: '+=140', //adds 250px
+        height: '+=120', //adds 250px
         marginTop: '-=170'
         }, 'normal' //sets animation speed to slow
       );
@@ -37,7 +40,7 @@ $(document).ready(function(){
     function() {
       $(this).animate({
         paddingTop: '-=10',
-        height: '-=140px', //substracts 250px
+        height: '-=120px', //substracts 250px
         marginTop: '+=170',
         zIndex: '0'
         }, 'normal'

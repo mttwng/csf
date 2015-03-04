@@ -49,7 +49,7 @@ h1.lead {
 	font-size: 90px;
 	margin-bottom: 16px;
 	font-weight: 200;
-	padding-top: 110px
+	padding-top: 110px;
 }
 
 h2.tagline {
@@ -57,6 +57,7 @@ h2.tagline {
 	margin-bottom: 25px;
 	font-weight: 300;
 	margin-top: 0px;
+
 }
 
 blockquote {
@@ -85,41 +86,60 @@ blockquote {
 }
 	
 	
-	@media (min-width: 768px) {
-		.body-container {
-			width: 750px;
-		}
-		.txt-box {
-			height: 350px;
-		}
+@media (min-width: 768px) {
+	.body-container {
+		width: 750px;
 	}
-	@media (min-width: 992px) {
-		.body-container {
-			width: 970px;
-		}
-		.txt-box {
-			height: 600px;
-		}
+	.txt-box {
+		height: 350px;
 	}
-	@media (min-width: 1200px) {
-		.body-container {
-			width: 1170px;
-		}
-		.txt-box {
-			height: 650px;
-		}
+	h1.lead {
+		font-size: 80px;
+		padding-top: 70px;
+		padding-left: 50px;
+	}
+	h2.tagline {
+		font-size: 53px;
+		padding-left: 50px;
+	}
+}
+@media (min-width: 992px) {
+	.body-container {
+		width: 970px;
+	}
+	.txt-box {
+		height: 600px;
+	}
+/*	h1.lead {
+		font-size: 90px;
+		padding-top: 110px;
+		padding-left: 0px;
 	}
 
-	@media (min-width: 1400px) {
-		.txt-box {
-			height: 680px;
-		}
+	h2.tagline {
+		font-size: 60px;
+		padding-left: 0px;
+	}*/
+}
+@media (min-width: 1200px) {
+	.body-container {
+		width: 1170px;
 	}
-	@media (min-width: 1600px) {
-		.txt-box {
-			height: 800px;
-		}
+	.txt-box {
+		height: 650px;
 	}
+}
+
+@media (min-width: 1400px) {
+	.txt-box {
+		height: 680px;
+	}
+}
+@media (min-width: 1600px) {
+	.txt-box {
+		height: 800px;
+	}
+}
 
 .txt-box {
 	background: rgba(255, 255, 255, .95);
@@ -152,7 +172,7 @@ blockquote {
 	text-align: center;
 	width: 72%;
 	background: rgba(255, 255, 255, 0.95);
-	padding: 5px 10px 50px 10px;
+	padding: 5px 2px 50px 2px;
 	height: 37px;
 	overflow: hidden;
 }
