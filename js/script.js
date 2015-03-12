@@ -23,13 +23,13 @@ $(document).ready(function(){
      });  // end section function
     }
 
-    $(".person_info").hover(
-    // $(".person").hover(
+    // $(".person_info").hover(
+    $(".person").hover(
 
     //on mouseover
     function() {
-      $(this).animate({
-      // $(".person_info", this).animate({        
+      // $(this).animate({
+      $(".person_info", this).animate({        
         paddingTop: '+=10',
         height: '+=120', //adds 250px
         marginTop: '-=170'
@@ -38,7 +38,8 @@ $(document).ready(function(){
     },
     //on mouseout
     function() {
-      $(this).animate({
+      // $(this).animate({
+      $(".person_info", this).animate({        
         paddingTop: '-=10',
         height: '-=120px', //substracts 250px
         marginTop: '+=170',
